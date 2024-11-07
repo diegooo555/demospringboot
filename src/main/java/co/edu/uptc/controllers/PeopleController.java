@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 
 @RestController
-@RequestMapping("/people")
+@RequestMapping("/prog2/people")
 public class PeopleController {
 
 
