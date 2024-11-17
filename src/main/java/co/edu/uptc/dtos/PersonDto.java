@@ -16,8 +16,6 @@ public class PersonDto {
     private int age;
     private Genders gender;
 
-
-
    public static PersonDto toPersonDto(PersonModel person){
       PersonDto personDto = new PersonDto();
       personDto.setName(person.getName());
